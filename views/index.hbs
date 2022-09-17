@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+</head>
+
+<body>
+    {{#each news}}
+    <div>
+        <h1>
+            {{this.title }}
+        </h1>
+        <hr>
+        <br>
+        <img src={{this.img}}>
+        <br>
+        <h2>{{this.discription}}</h2>
+    </div>
+    {{/each}}
+</body>
+
+</html>
